@@ -1,0 +1,63 @@
+body {
+  background-color: lightgrey;
+  display: flex;
+  font-family: sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+#login {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out
+}
+
+#login.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+label {
+  color: whitesmoke;
+}
+
+.loginDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.random-boja {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+  height: 200px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: ease-out;
+  transition-duration: 0.5s;
+  
+  background: rgb(0, 168, 254);
+  background: linear-gradient(90deg, rgba(0, 168, 254, 1) 0%, rgba(0, 113, 255, 1) 100%);
+}
+
+.loginBtn {
+  
+}
+
+.dugme {
+  font-size: 16px;
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+  color: white;
+  background: rgb(0, 168, 254);
+  background: linear-gradient(90deg, rgba(0, 168, 254, 1) 0%, rgba(0, 113, 255, 1) 100%);
+}
